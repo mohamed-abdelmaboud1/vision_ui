@@ -16,7 +16,7 @@ class EditButton extends StatelessWidget {
     return SizedBox(
       width: cellWidth,
       child: Text(
-        'Edit',
+        '',
         style: AppStyles.medium12(context).copyWith(
           color: context.theme.subTitleColor.withOpacity(0.8),
         ),

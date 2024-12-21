@@ -50,7 +50,7 @@ class BuildAuthorRow {
         ),
         DataCell(
           EditButton(
-            cellWidth: cellWidth,
+            cellWidth: cellWidth * 0.9,
           ),
         ),
       ],

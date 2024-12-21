@@ -44,6 +44,23 @@ class ProjectsCardList extends StatelessWidget {
           projectDescription:
               'As Uber works through a huge amount of internal management turmoil.',
         ),
+        Gap(25),
+        ProjectCard(
+          projectThumnail: Assets.assetsImagesScan,
+          projectNumber: 2,
+          projectName: 'Scandinavian',
+          projectDescription:
+              'Music is something that every person has his or her own specific opinion about.',
+        ),
+        Gap(25),
+        ProjectCard(
+          projectThumnail: Assets.assetsImagesScan,
+          projectNumber: 2,
+          projectName: 'Scandinavian',
+          projectDescription:
+              'Music is something that every person has his or her own specific opinion about.',
+        ),
+        Gap(25),
       ],
     );
   }

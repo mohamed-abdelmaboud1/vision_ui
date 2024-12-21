@@ -55,7 +55,7 @@ class SignInBody extends StatelessWidget {
             children: [
               CustomTextButton(
                 buttonColor: AppDarkColors.activeIconColor,
-                padingHorizental: 120,
+                padingHorizental: 100,
                 padingVeritical: 20,
                 buttonText: "SIGN IN",
                 onPressed: () {},

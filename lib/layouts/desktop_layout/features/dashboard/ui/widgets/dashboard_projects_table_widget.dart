@@ -9,7 +9,7 @@ class DashboardProjectsTableWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Expanded(
-      flex: 3,
+      flex: 4, // record now
       child: TabletProjectsTableWidget(),
     );
   }

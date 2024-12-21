@@ -15,7 +15,7 @@ class SignUpBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(right: 420, left: 40, top: 80, bottom: 80),
+      padding: const EdgeInsets.only(right: 380, left: 40, top: 80, bottom: 80),
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 20),
         decoration: BoxDecoration(
@@ -70,7 +70,7 @@ class SignUpBody extends StatelessWidget {
               children: [
                 CustomTextButton(
                   buttonColor: AppDarkColors.activeIconColor,
-                  padingHorizental: 120,
+                  padingHorizental: 100,
                   padingVeritical: 20,
                   buttonText: "SIGN IN",
                   onPressed: () {},
